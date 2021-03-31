@@ -2,7 +2,7 @@
 $host="localhost";
 $user="root";
 $pass="";
-$db="new1";
+$db="nick";
 
 $conn=mysqli_connect($host,$user,$pass,$db);
 if(!$conn)

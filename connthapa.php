@@ -11,7 +11,7 @@ if(!$conn)
 }
 echo "Connection successfull <br>";
 
-$sql="DROP DATABASE new2";
+$sql="DROP DATABASE nick";
 if(mysqli_query($conn,$sql))
 {
     echo "Database Deleted";

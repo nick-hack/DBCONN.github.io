@@ -10,7 +10,7 @@ if(!$conn)
 }
 echo "connection successfull<hr>";
 
-$sql="CREATE DATABASE new1";
+$sql="CREATE DATABASE nick";
 if(mysqli_query($conn,$sql))
 {
     echo "Database created";

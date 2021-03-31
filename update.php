@@ -2,7 +2,7 @@
 $host="localhost";
 $user="root";
 $pass="";
-$db="new1";
+$db="nick";
 
 $conn=mysqli_connect($host,$user,$pass,$db);
 if(!$conn)
@@ -11,7 +11,7 @@ if(!$conn)
 }
 echo "connection successfull<hr>";
 
-$sql="UPDATE student1 set name='ashish', roll='110', address='pune' where id= 1"; 
+$sql="UPDATE student1 set name='Aniket', roll='161', address='miraj' where id= 1"; 
 
 if(mysqli_query($conn,$sql))
 {

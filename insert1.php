@@ -2,7 +2,7 @@
     $host="localhost";
     $user="root";
     $pass="";
-    $db="new1";
+    $db="nick";
 
     $conn=mysqli_connect($host,$user,$pass,$db);
     if(!$conn)
@@ -10,7 +10,7 @@
         die("conn failed");
     }
     echo "connection successfull<hr>";
-    $sql = "INSERT INTO student (name, roll, address) VALUES('rani','104','miraj)";
+    $sql = "INSERT INTO student (name, roll, address) VALUES('Aniket','161','miraj)";
 
             if(mysqli_query($conn,$sql))
             {
