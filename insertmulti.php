@@ -10,7 +10,8 @@
         die("conn failed");
     }
     echo "connection successfull<hr>";
-    $sql = "INSERT INTO student (name, roll, address) VALUES('Aniket','161','Miraj')";
+    $sql = "INSERT INTO student (name, roll, address) VALUES ('Abhishek','160','Bhose'),('Aniket','161','Miraj'),
+    ('Harshad','159','Deshing'),('Pratik','163','Bedag'),('Abhi','164','Jununi')";
 
             if(mysqli_query($conn,$sql))
             {
